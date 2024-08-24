@@ -1,10 +1,10 @@
 function myName (){
-    console.log("n");
-    console.log("i");
-    console.log("k");
-    console.log("i");
-    console.log("t");
-    console.log("a");
+    // console.log("n");
+    // console.log("i");
+    // console.log("k");
+    // console.log("i");
+    // console.log("t");
+    // console.log("a");
     
 
 }
@@ -28,6 +28,22 @@ function addNum (number1,number2){
  function loginUser (username){
     return `just ${username} logged in`
  }
- console.log(loginUser("nimish"));
+ //console.log(loginUser("nimish"));
+
+ function calculateCardPrice (val1,val2, ...num1){
+    return num1
+ }
+ //console.log(calculateCardPrice(2,4,5,7));
+
+ const user ={
+    username: "nbikita",
+    prices: 55
+ }
+ function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.prices}`);
+    
+ }
+ handleObject(user)
+ 
   
  
